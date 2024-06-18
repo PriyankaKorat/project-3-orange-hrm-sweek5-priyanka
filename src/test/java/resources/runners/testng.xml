@@ -1,0 +1,10 @@
+<suite name="testsuite" verbose="1">
+    <listeners>
+        <listener class-name="com.orangehrmlive.demo.customlisteners.CustomListeners"/>
+    </listeners>
+    <test name="Login Test">
+        <classes>
+            <class name="com.orangehrmlive.demo.testsuite.LoginTest"/>
+        </classes>
+    </test>
+</suite>
